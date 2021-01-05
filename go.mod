@@ -23,6 +23,8 @@ require (
 	github.com/gabriel-vasile/mimetype v1.1.1
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/google/go-querystring v1.0.0 // indirect
+	github.com/google/uuid v1.1.2
+	github.com/h2non/filetype v1.1.0
 	github.com/hanwen/go-fuse/v2 v2.0.3
 	github.com/iguanesolutions/go-systemd/v5 v5.0.0
 	github.com/jlaffaye/ftp v0.0.0-20201112195030-9aae4d151126
