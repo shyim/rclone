@@ -31,3 +31,9 @@ rclone mount myRemoteName: [path]
 rclone copy local-file.txt myRemoteName:remote-file.txt
 rclone cat myRemoteName:remote-file.txt
 ```
+
+### Limitations
+
+* You can upload only files that matches the php max_upload_size of the Shop
+* The file name must be unique. Shopware 6 wants a unique name for all files
+* Only upload works for allowed extensions of the Media Manager
